@@ -17,6 +17,10 @@ export const GlobalStyles = createGlobalStyle`
     height: 100%;
   }
 
+  button {
+    cursor: pointer;
+  }
+
   ${({ theme }) => css`
     body {
       font-family: ${theme.font.family};
