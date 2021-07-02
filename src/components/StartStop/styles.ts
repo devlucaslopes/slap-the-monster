@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components'
 
 export const Button = styled.button`
   ${({ theme }) => css`
+    width: 8rem;
     font-weight: ${theme.font.bold};
     background: ${theme.colors.secondary};
     color: ${theme.colors.primary};

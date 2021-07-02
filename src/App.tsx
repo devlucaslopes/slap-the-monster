@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 
 import { GlobalStyles } from './styles/global'
@@ -9,12 +9,19 @@ import { Header } from './components/Header'
 import { StartStop } from './components/StartStop'
 
 function App() {
+  const [isPlaying, setIsPlaying] = useState(false)
+
   return (
     <ThemeProvider theme={theme}>
       <Layout>
         <Header>Slap the monster!</Header>
 
-        <StartStop />
+        <StartStop
+          isPlaying={isPlaying}
+          onClick={() => setIsPlaying(!isPlaying)}
+        />
+
+        {isPlaying && <>jogando</>}
       </Layout>
 
       <GlobalStyles />
