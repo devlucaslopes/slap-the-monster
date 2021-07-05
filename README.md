@@ -7,7 +7,7 @@
 Projeto desenvolvido com objetivo de estudar um pouco mais sobre `Typescript` e `styled-components`. Essa aplicação é um joguinho bem simples, o objetivo é destruir o máximo de monstros em 10 segundos.
 
 <p align="center">
-  <img src="/src/assets/demo.gif" alt="monster" width="738">
+  <img src="/src/assets/demo.gif" alt="monster" width="740">
 </p>
 
 ## Tecnologias utilizadas
