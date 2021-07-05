@@ -10,6 +10,7 @@ type TimerProps = {
 
 export const Timer = ({ onEnd }: TimerProps) => {
   const [internalTime, setInternalTime] = useState(config.TIME_LIMIT)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const timerRef = useRef(config.TIME_LIMIT) as any
 
   useEffect(() => {
