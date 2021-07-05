@@ -23,7 +23,7 @@ export default {
     mainBg: '#fffcf9',
     white: '#fffcf9',
     success: '#06d6a0',
-    error: '##f20f45'
+    error: '#f20f45'
   },
   spacings: {
     xxsmall: '0.8rem',

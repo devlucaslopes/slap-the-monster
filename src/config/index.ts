@@ -1,3 +1,5 @@
 export default {
-  TIME_LIMIT: 3000
+  TIME_LIMIT: 10000,
+  TIME_INTERVAL: 1000,
+  MONSTER_SCORE: 100
 }
